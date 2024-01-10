@@ -8,7 +8,7 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
-//
+// koneksi database
 const dbConfig = {
   host: '66.118.234.39',
   user: 'u40_1fcVHWTpwn',
